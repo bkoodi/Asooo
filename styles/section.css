@@ -1,0 +1,39 @@
+.search-section{
+    background-color: #d9d9d92a;
+    margin: 2px 150px 20px 150px;
+    border-style: none;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 500px;
+}
+.textsection{
+    border-radius: 25px;
+
+}
+
+.picssection{
+    padding: 0;
+}
+
+
+.pic-in-section{
+    width: 80%;
+    max-width: 500px;
+    margin-right:0;
+}
+
+
+
+.topic-in-section{
+    text-align: center;
+    font-size: 36px;
+    object-position: right;
+}
+
+.info-in-section{
+    padding-right: 50px;
+    padding-left: 50px;
+
+}

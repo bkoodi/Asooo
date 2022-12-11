@@ -1,0 +1,59 @@
+.Subbutt {
+    background-color: rgb(200,0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-top: 5px;
+    transition: opacity 0.5s;
+}
+
+.Subbutt:hover {
+    opacity:0.7; 
+}
+
+.Subbutt:active {
+    opacity:0.4;  
+}
+
+.Joinbutt{ 
+    background-color: white;
+    border-color:rgb(80, 90, 241);
+    text-align: center;
+    border-style:solid;
+    border-width: 1px;
+    padding: 8px 20px 8px 20px;
+    color:rgb(80, 90, 241);
+    border-radius: 2px;
+    cursor:copy;
+    margin-right:8px;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+
+.Joinbutt:hover {
+    background-color: rgb(80, 90, 241);
+    color:white;
+}
+
+.Joinbutt:active{
+    opacity:0.4;
+}
+
+.Tweetbutt{
+    background-color: rgb(2, 158, 255);
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: cell;
+    transition: box-shadow 0.5s;
+
+ }
+ .Tweetbutt:hover{
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+ }

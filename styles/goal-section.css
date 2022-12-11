@@ -1,0 +1,42 @@
+.goal-section{
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 60px 60px;
+    margin: 200px;
+    margin-top: 150px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.goal-top{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.goal-destination{
+    display: grid;
+    grid-template-rows: 20px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+
+
+.goal-start{
+    display: grid;
+    grid-template-rows: 20px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.goal-down{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.goal-down img{
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vw;
+}

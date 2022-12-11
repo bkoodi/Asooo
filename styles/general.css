@@ -1,0 +1,97 @@
+
+   @font-face {
+    font-family: Shabnam;
+    src: url('../fonts/Shabnam.eot');
+    src: url('../fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam.woff2') format('woff2'),
+         url('../fonts/Shabnam.woff') format('woff'),
+         url('../fonts/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('../fonts/Shabnam-Bold.eot');
+    src: url('../fonts/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Bold.woff2') format('woff2'),
+         url('../fonts/Shabnam-Bold.woff') format('woff'),
+         url('../fonts/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('../fonts/Shabnam-Thin.eot');
+    src: url('../fonts/Shabnam-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Thin.woff2') format('woff2'),
+         url('../fonts/Shabnam-Thin.woff') format('woff'),
+         url('../fonts/Shabnam-Thin.ttf') format('truetype');
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('../fonts/Shabnam-Light.eot');
+    src: url('../fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Light.woff2') format('woff2'),
+         url('../fonts/Shabnam-Light.woff') format('woff'),
+         url('../fonts/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: Shabnam;
+    src: url('../fonts/Shabnam-Medium.eot');
+    src: url('../fonts/Shabnam-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam-Medium.woff2') format('woff2'),
+         url('../fonts/Shabnam-Medium.woff') format('woff'),
+         url('../fonts/Shabnam-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+
+  button{
+     font-family: 'Shabnam','Vazir',Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+     scroll-behavior: smooth;
+   }
+   body{
+       margin:0;
+       background-color:white;
+       font-family: 'Shabnam','Vazir',Arial, Helvetica, sans-serif;
+       direction: rtl;
+   }
+
+
+   .section-title{
+        text-align: center;
+        background-color: rgb(200,0, 0);
+        padding: 13px;   
+        color: white;
+        font-weight: 500;
+   }
+
+a {
+     text-decoration: solid;
+     color: black;
+}
+
+
+footer {
+     display: flex;
+     flex-direction: row;
+     height: 300px;
+     background-color: black;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.right-foot{
+     background-color: blue;
+}
+
+.middle-foot{
+     background-color: brown;
+}
+
+.left-foot{
+     background-color: aqua;
+}
