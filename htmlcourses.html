@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/course-main.css">
-
+    <link rel="stylesheet" href="styles/button.css">
+    
 </head>
 
 
@@ -44,19 +45,11 @@
                 <img src="Pics/icons/book_icon_48px.png">
             </div>
             <div>
-                <a href="index.html">بلاگ</a>
+                <a href="blog_1.html">بلاگ</a>
             </div>
         </div>
 
-        <div class="header-courses">
-            <div>
-                <img src="Pics/icons/contact_icon_48px.png">
-            </div>
-            <div>
-                <a href="index.html">ارتباط باما</a>
-            </div>
-
-        </div>
+        
 
 
     </div>
@@ -76,7 +69,7 @@
             <div class="ct-a-p1">
                 <img src="Pics/icons/open_book_icon.png">
                 <p class="ct-a-pt">HTML
-                <p>
+                </p>
             </div>
             <p class="ct-a-pd" style="color: gray;">شما در ابتدای مسیر یادگیری هستید و HTML بهترین زبان برای شروع در این
                 حوزه است چون هم ساده است و هم پیش‌نیاز ادامه مسیر.</p>
@@ -85,7 +78,7 @@
         <div class="ct-a-path">
             <div class="ct-a-p1">
                 <img src="Pics/icons/closed_book_icon.png">
-                <p class="ct-a-pt">CSS
+                <p class="ct-a-pt"><a href="Csscourse.html">CSS</a>
                 <p>
             </div>
             <p class="ct-a-pd">دومین قدم در راه رسیدن به جام فرانت-اند، اینه که یادبگیری چطوری به متن‌هایی که با HTML
@@ -95,12 +88,24 @@
         <div class="ct-a-path">
             <div class="ct-a-p1">
                 <img src="Pics/icons/closed_book_icon.png">
-                <p class="ct-a-pt">JavaScript
+                <p class="ct-a-pt"> <a href="javascriptcourses.html">JavaScript</a>
                 <p>
             </div>
             <p class="ct-a-pd">سومین قدم شما، بزرگترین قدمتونه، جاوااسکریپت، برای اضافه کردن جادو به صفحات به‌کار می‌ره
                 و کلی امکانات بهتون میده، البته قبل این قدم قدم‌های کوجیک دیگه‌ای هم هست که درحال اضافه شدن هستن..</p>
         </div>
+        <div class="ct-a-filter">
+            <h1> فیلتر</h1>
+        </div>
+
+        <button onclick="maktab()" id="maktabBtn" class="filterButt" style=" margin-right: 20px; margin-bottom: 20px; ">مکتبخونه </button>
+        <button onclick="fara()" id="faraBtn" class="filterButt" >فرادرس </button>
+        <button onclick="sabz()" id="sabzBtn" class="filterButt" >سبزلرن </button>
+        <button onclick="rock()" id="rockBtn" class="filterButt" >راکت </button>
+        <button onclick="coursera()" id="courseraBtn" class="filterButt" >کورسرا </button>
+        <button onclick="youTube()" id="youTubeBtn" class="filterButt" >یوتیوب </button>
+
+
     </div>
 
     <main class="ct-main">
@@ -111,7 +116,7 @@
 
         <p class="ct-m-des">
             اگه توی سایت‌های کاریابی جستجو کنین، با اعداد قابل توجهی در حوزه برنامه‌نویسی فرانت-اند مواجه می‌شین. این
-            اعداد از ۱۰ میلیون هستند تا ۳۰ میلیون (اگه شک داری <a>کلیک</a> کن) اگه شما بخوای توی مسیر یادگیری این حوزه
+            اعداد از ۱۰ میلیون هستند تا ۳۰ میلیون (اگه شک داری <a href="https://jobinja.ir/jobs?filters%5Bkeywords%5D%5B%5D=%D9%81%D8%B1%D8%A7%D9%86%D8%AA&filters%5Blocations%5D%5B%5D=&filters%5Bjob_categories%5D%5B%5D=&b=">کلیک</a> کن) اگه شما بخوای توی مسیر یادگیری این حوزه
             قدم برداری تا بعدا بتونی به شغل‌های جذاب برسی نیاز داری ابتدا آموزش‌های موجود توی بازار رو بررسی کنی و بعد
             از بررسی بهترین گزینه رو انتخاب کنی. اما منابع آموزشی توی دنیای امروز خیلی زیاد و پراکنده هستند و این باعث
             سردرگمی‌مون میشه. حالا ما تصمیم گرفتیم توی پیدا کردن بهترین آموزش‌ها به شما کمک کنیم. آموزش‌های HTML رو
@@ -126,7 +131,7 @@
             <li>کورسرا</li>
         </ul>
 
-        <p class="ct-m-des">از بین منابع بالا ۴ تای اولی فارسی هستند و چند سالی میشه که توی حوزه‌ی آموزش فعالیت می‌کنن .
+        <p class="ct-m-des">از بین منابع بالا ۴ تای اولی ایرانی هستند و چند سالی میشه که توی حوزه‌ی آموزش فعالیت می‌کنن .
             پنجمی هم که یوتیوب معروف و محبوبه که برای همه‌ی آدم‌های دنیا هرنوع آموزشی رو رایگان ارائه میده که البته
             رایگان بودنش باعث نشده کیفیت دوره‌های پایین بیاد و خیالتون راحت راحت باشه. </p>
 
@@ -142,7 +147,7 @@
         <p class="ct-m-title">دوره‌ها</p>
         <div class="ct-m-results">
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card maktab ">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/gold_winner_icon.png">
                 </div>
@@ -174,7 +179,7 @@
                 <p class="ct-m-r-c-price">رایگان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card rock">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/silver_winner_icon.png">
                 </div>
@@ -203,7 +208,7 @@
                 <p class="ct-m-r-c-price"> رایگان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card maktab">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/bronze_winner_icon.png">
                 </div>
@@ -236,7 +241,7 @@
                 <p class="ct-m-r-c-price">۷۱۹هزار تومان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card sabz">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-sabz-1.png">
@@ -267,7 +272,7 @@
                 <p class="ct-m-r-c-price">رایگان </p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card fara">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-rafadars-4.png">
@@ -296,7 +301,7 @@
                 <p class="ct-m-r-c-price">۹۹هزار تومان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card fara">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-rafadars-2.png">
@@ -324,7 +329,7 @@
                 <p class="ct-m-r-c-price">۱۳۹هزار تومان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera2.JPG">
@@ -358,7 +363,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera1.JPG">
@@ -392,7 +397,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera3.JPG">
@@ -425,7 +430,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card youTube">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-youtube.webp">
@@ -453,7 +458,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card youTube">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-youtube.webp">
@@ -490,6 +495,7 @@
 
 
 
+<script src="js/maktab.js"></script>
 
 </body>
 

@@ -84,14 +84,34 @@ footer {
      align-items: center;
 }
 
-.right-foot{
-     background-color: blue;
+.right-foot img {
+     width: 100px;
 }
 
 .middle-foot{
-     background-color: brown;
+     color: white;
+     size: 4vw;
+     transition: 2s;
+}
+
+
+.middle-foot:hover{
+     transform: scale(1.2);
 }
 
 .left-foot{
-     background-color: aqua;
+     color: white;
+     size: 4vw;
+}
+
+
+
+@media  screen and (max-width: 999.99px){
+
+     footer {
+          flex-direction: column;
+     }
+
+
+
 }

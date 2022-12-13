@@ -34,14 +34,16 @@
 }
 
 .aboutus-txt1{
-    font-size: 36px;
+    font-size: 24px;
     margin: 20px;
-    color: #fff;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .aboutus-txt2{
     margin: 5px 30vw;
     line-height: 30px;
+    margin-bottom: 100px;
 }
 }
 
@@ -83,14 +85,15 @@
     }
     
     .aboutus-txt1{
-        font-size: 36px;
         margin: 10px;
-        color: #fff;
+        margin-top: 100px;
+        font-size: 18px;
+        text-align: center;
     }
     
     .aboutus-txt2{
         margin: 5px 12vw;
-        line-height: 30px;
+        margin-bottom: 100px;
     }
     
 }

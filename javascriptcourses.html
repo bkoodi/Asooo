@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/course-main.css">
+    <link rel="stylesheet" href="styles/button.css">
 
 </head>
 
@@ -44,19 +45,11 @@
                 <img src="Pics/icons/book_icon_48px.png">
             </div>
             <div>
-                <a href="index.html">بلاگ</a>
+                <a href="blog_1.html">بلاگ</a>
             </div>
         </div>
 
-        <div class="header-courses">
-            <div>
-                <img src="Pics/icons/contact_icon_48px.png">
-            </div>
-            <div>
-                <a href="index.html">ارتباط باما</a>
-            </div>
-
-        </div>
+        
 
 
     </div>
@@ -75,7 +68,7 @@
         <div class="ct-a-path">
             <div class="ct-a-p1">
                 <img src="Pics/icons/open_book_icon.png">
-                <p class="ct-a-pt">HTML
+                <p class="ct-a-pt"><a href="htmlcourses.html">HTML</a>
                 <p>
             </div>
             <p class="ct-a-pd">شما در ابتدای مسیر یادگیری هستید و HTML بهترین زبان برای شروع در این
@@ -85,7 +78,7 @@
         <div class="ct-a-path">
             <div class="ct-a-p1">
                 <img src="Pics/icons/closed_book_icon.png">
-                <p class="ct-a-pt">CSS
+                <p class="ct-a-pt"><a href="Csscourse.html">CSS</a>
                 <p>
             </div>
             <p class="ct-a-pd">دومین قدم در راه رسیدن به جام فرانت-اند، اینه که یادبگیری چطوری به متن‌هایی که با HTML
@@ -102,11 +95,22 @@
                 به صفحات به‌کار می‌ره
                 و کلی امکانات بهتون میده، البته قبل این قدم قدم‌های کوجیک دیگه‌ای هم هست که درحال اضافه شدن هستن..</p>
         </div>
+        <div class="ct-a-filter">
+            <h1> فیلتر</h1>
+        </div>
+
+        <button onclick="maktab()" id="maktabBtn" class="filterButt" style="margin-right:15px  ;" >مکتبخونه </button>
+        <button onclick="fara()" id="faraBtn" class="filterButt" >فرادرس </button>
+        <button onclick="sabz()" id="sabzBtn" class="filterButt" >سبزلرن </button>
+        <button onclick="rock()" id="rockBtn" class="filterButt" >راکت </button>
+        <button onclick="coursera()" id="courseraBtn" class="filterButt" >کورسرا </button>
+        <button onclick="youTube()" id="youTubeBtn" class="filterButt" >یوتیوب </button>
+
     </div>
 
     <main class="ct-main">
         <div class="ct-m-topic">
-            <img src="Pics/icons/Html_icon.png">
+            <img src="Pics/icons/javascript-icon.svg">
             <h1>آموزش JavaScript</h1>
         </div>
 
@@ -143,7 +147,7 @@
         <p class="ct-m-title">دوره‌ها</p>
         <div class="ct-m-results">
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card maktab">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/gold_winner_icon.png">
                 </div>
@@ -175,7 +179,7 @@
                 <p class="ct-m-r-c-price">رایگان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card sabz">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/silver_winner_icon.png">
                 </div>
@@ -207,7 +211,7 @@
                 <p class="ct-m-r-c-price"> رایگان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card fara">
                 <div class="ct-m-r-rank">
                     <img src="Pics/icons/bronze_winner_icon.png">
                 </div>
@@ -239,7 +243,7 @@
                 <p class="ct-m-r-c-price">۱۹۵ هزار تومان</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card maktab">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/javascript-es-series.jpg">
@@ -269,7 +273,7 @@
                 <p class="ct-m-r-c-price">۲۷۹ هزار تومان </p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera2.JPG">
@@ -303,7 +307,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera1.JPG">
@@ -337,7 +341,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/uc-davis.png">
@@ -372,7 +376,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card coursera">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-coursera3.JPG">
@@ -406,7 +410,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card youTube">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-youtube.webp">
@@ -435,7 +439,7 @@
                 <p class="ct-m-r-c-price">Free</p>
             </div>
 
-            <div class="ct-m-r-card">
+            <div class="ct-m-r-card youTube">
 
                 <div class="ct-m-r-c-topic">
                     <img src="Pics/bg/html-youtube.webp">
@@ -475,6 +479,7 @@
     </main>
 
 
+    <script src="js/maktab.js"></script>
 
 
 </body>

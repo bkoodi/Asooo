@@ -71,8 +71,7 @@
     .search-section-topic{
         padding-right: 0;
         font-size: 32px;
-        text-shadow: 0px 4px 2px gainsboro;
-        margin-right: 10px;
+        margin-right: 17px;
         font-weight: bold;
     }
     
@@ -89,12 +88,33 @@
 
     .search-section-icon img{
         width: 2vw;
+        display: none;
+    }
+
+
+    .Subbuttt {
+        text-align: center;
+        background-color: #c80000;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        margin-right: 14px;
+        margin-top: 5px;
+        transition: opacity 0.5s;
+    }
+    
+    .Subbutt:hover {
+        opacity:0.7; 
     }
     
 }
 
 
 @media only screen and (max-width: 999.99px) {
+
+
     .search-section-bg img{
         z-index: -1;
         height:60vw;
@@ -113,6 +133,7 @@
         align-items: center;
         margin:10px 5vw 100px 5vw;
         border: none;
+        text-align:align;
     }  
     
 
@@ -144,15 +165,14 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
 
     }
 
     .search-section-about{
-        text-align: right;
+        text-align: center;
         font-size: 12px;
         color: rgb(22, 158, 117);
-        border-right: 1px solid;
         padding-right: 10px;
         margin-right: 14px;
         margin-top: 20px;
@@ -165,15 +185,13 @@
         text-align: center;
         padding-right: 0;
         font-size: 32px;
-        text-shadow: 0px 4px 2px gainsboro;
         margin-right: 10px;
         font-weight: bold;
     }
     
     .search-section-info{
-        text-align: right;
+        text-align: center;
         font-size: 16px;
-        border-right: 1px solid;
         padding-right: 10px;
         margin-right: 20px;
         margin-top: 30px;
@@ -183,10 +201,31 @@
     }
 
 .search-section-icon img{
-    width: 4vw;
+    display: none;
 }
        
-    
+.search-section-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Subbuttt {
+    text-align: center;
+    background-color: #c80000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-top: 5px;
+    transition: opacity 0.5s;
+}
+
+.Subbutt:hover {
+    opacity:0.7; 
+}
     
 }
 
